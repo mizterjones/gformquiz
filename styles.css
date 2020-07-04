@@ -1,0 +1,22 @@
+.article-quiz .gfield.correct-answer::after,
+.article-quiz .gfield.wrong-answer::after,
+.article-quiz .gfield.review-answer::after {
+    content: 'Oops! Wrong answer... try again!';
+    display: block;
+    width: 100%;
+    color: #790000;
+    font-size: 16px;
+}
+
+.article-quiz .gfield.correct-answer::after {
+    content: 'Correct!';
+    color: #8bc53f;
+}
+
+.article-quiz .gfield.review-answer::after {
+    content: 'Please choose an answer.';
+}
+
+.article-quiz .gfield::after {
+    content: '';
+}
